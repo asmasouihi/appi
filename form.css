@@ -1,0 +1,6 @@
+body {
+    background-image: url(bin.jpeg);
+    background-size: cover;}
+    h1{display: flex; justify-content: center;}
+    h1{padding: 300px;}
+    h1{font-size: xx-large; font-style: italic; color: rgb(37, 203, 224);}

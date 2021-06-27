@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-phone"></i> (+216)20369741
+        <span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> LUNDI A VENDREDI:  9h - 00h SAMEDI: 9h - 2h DIMANCHE: 9h - 2h</span>
+      </div>
+    
+
+
+        
+    
+    
+     
+         
+        
+            <p> 
+            <center><img src="Phone_iOS.png" alt="logo" width="30px" height="30px">
+                <small> Service client </small> 
+                 <a style="color: green;"><u>(+216)27260040</u></a>
+                 <img src="index.jpeg" alt="logo" width="30px" height="30px">
+                  <small>WhatsApp</small>  
+                  <a style="color: green;"> <u>(+216)27260045</u></a>  
+                  </center>
+                  <img src="logo7.jpeg" alt="logo" width="150px" height="60px" >
+             </p>
+               
+        </div>
+        <div class="header">
+           
+              <ul>
+              <li> <a href="index.html">Accueil</a></li>
+                <li> <a href="specialité.html">spécialités</a></li>
+                <li> <a href="reserve maintenant.html">Réserve maintenant</a></li>
+                
+               
+                 <li  style="float:right"><a class="active"
+                   href="contact.html">Contact</a></li>
+             </ul>   
+            
+          
+            
+            </div>
+        </div>  
+
+
+        
+         
+         <div class="conteneur"> 
+             
+               <img src="about.jpg" alt="image" width="1300px" height="500px">
+               <form   name="formulaire" method="GET"  action="insec.html">
+                <center><strong><h1> Nos contacté</h1></strong></center>
+      
+                <div class="grid-container">
+                 <fieldset  >  
+                   <legend> Résevation  a table</table></legend>
+                     <!--name-->
+           
+                   <div class="grid-item1"> <label for=nom>Prénom et Nom * :</label>
+                                              <input type="text" name="name"  id="name" > </div><br>
+           
+                     <!--tel-->
+                   <div class="grid-item2"> <label for=telephone>Télephone * :</label>
+                                              <input id= "telephone"  name=telephone type=telephone > </div><br>
+           
+                    <!--email-->
+                   <div class="grid-item3">  <label for=email> Adresse mail * :</label>
+                                              <input id=email name=email type=email  ></div><br>
+              
+ <!--button-->
+
+             
+ <div class="grid-item7" >  <button  type="submit" class="but" onclick="return verif()" >  Envoyer</button>
+    <button  class="but" onclick="submit" >  Annuler</button> </div>
+</fieldset>
+</div>
+</form>  
+
+
+<table>
+  <tr>
+      <td>
+<div class="#">
+<img src="L.jpeg" alt= "image" height= "30%" width="30%">
+<img src="maps12.jpg" alt= "image"  width="30%" height="30%">
+
+</div> 
+</td>
+</tr>
+</table>
+
+
+           
+<script  language="javascript" >
+    function verif ()
+  {
+      //nom prenom
+    a = formulaire.name.value;
+    exp=/^[A-Z]{1}[a-z ]+$/;
+    if(exp.test(a)==false ) 
+   {
+   alert ("vérifier votre Nom et Prénom sont incorrect!");
+    return false;
+
+
+  }
+  //**teléphone
+else if (formulaire.CIN.value.length !=8)
+{
+  alert ("vérifier votre telephoneest incorrect!");
+  return false;
+}
+//**email
+
+else if((formulaire.email.value.indexOf('@')== -1)||(formulaire.email.value.indexOf('.')< 0 ) )
+{ 
+alert("vérifier votre email est incorrect!");
+return false;
+}
+  </script>
+  <div class="footer1">
+                    <ul>
+                        <li> <a href="index.html">Accueil</a></li>
+                          <li> <a href="specialité.html">spécialités</a></li>
+                          <li> <a href="reserve maintenant.html">Réservation</a></li>
+                       
+    
+                           <li  style="float:right"><a class="active"
+                             href="contact.html">contact</a></li>
+                       </ul>
+    
+                </div>
+                <div class="footer2">
+                    <p>
+    
+    
+                  <center>   <img src="logo7.jpeg" alt="logo" width="150px" height="60px">
+                    <h5> Bienvenue dans notre réstaurant ! <br>c'est l'héritage<br> de la cuisine turque dans son coté généreux <br> savoureux qui caractérisent nos plats. </h1> </p>
+                          </h5>
+    
+                      <img src="fb.png" alt="face" width="30px" height="30px">
+                      <img src="inst.jpeg" alt="insta" width="30px" height="30px">
+                      <img src="in.png" alt="in" width="30px" height="30px">
+    
+                    </p></center>
+
+    </body>
+</html>
+
+
+         
+         </div>
+         </body>
+         </html>
